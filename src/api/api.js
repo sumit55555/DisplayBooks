@@ -6,3 +6,15 @@ export const getBooks = async () => {
 
     return data;
 };
+// export const getBooks = async () => {
+//     try {
+//       const response = await fetch("https://www.jsonkeeper.com/b/VOII");
+//       const data = await response.json();
+//       console.log("check", data);
+  
+//       return data.books;
+//     } catch (error) {
+//       console.error(error);
+//       return [];
+//     }
+//   };
